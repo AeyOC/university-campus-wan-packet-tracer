@@ -2,20 +2,36 @@
 
 ## Project Overview
 
-This repository contains the Cisco Packet Tracer work for a university network project connecting a Main Campus and a Branch Campus across a WAN serial link.
+This repository contains the Cisco Packet Tracer project for CS360 Computer Networks. The project models a university network with a Main Campus and a Branch Campus connected through a serial WAN link.
 
-The design includes four LANs, two routers, four switches, and twelve end devices. Each campus contains two LANs, and communication between campuses is provided through routing between Router 1 and Router 2.
+The completed topology contains:
 
-## Phase 1 Scope
+- 12 end devices
+- 4 Cisco Catalyst 2960 switches
+- 2 Cisco 2911 routers
+- 4 LANs
+- 1 serial WAN connection between the campuses
 
-Phase 1 focuses on project preparation and progress documentation, including:
+The objective is to provide successful end-to-end communication between devices located in different LANs across WAN 1 and WAN 2.
 
-- Installing and studying Cisco Packet Tracer
-- Creating and connecting network devices
-- Studying copper straight-through, copper cross-over, and serial DCE/DTE links
-- Planning the IP addressing scheme
-- Preparing the initial Packet Tracer project file
-- Identifying the routing approach to be completed/tested in the next phase
+## Project Phases
+
+### Phase 1 – Mid-Project Progress
+
+Phase 1 covered the initial project setup and preparation, including Packet Tracer installation, device and cable studies, IP addressing planning, and the initial Packet Tracer project file.
+
+### Phase 2 – Final Project
+
+Phase 2 completes the network implementation and verification. The final work covers:
+
+- Complete network topology
+- LAN connections using appropriate Ethernet cabling
+- End-device IP addressing and default gateways
+- Router LAN interface configuration
+- Serial WAN configuration between Router 1 and Router 2
+- Routing between the two campus networks
+- Connectivity testing using ping in both directions
+- Final report evidence and reflection
 
 ## Network Addressing Plan
 
@@ -32,16 +48,19 @@ WAN serial interface addresses:
 - Router 1: `10.10.10.1/30`
 - Router 2: `10.10.10.2/30`
 
-## Repository Files
+## Repository Contents
 
-- `CS360_Project-Phase 1.pkt` — Cisco Packet Tracer Phase 1 project file
-- `documentation/ip-addressing-plan.md` — detailed IP addressing reference
+- `CS360_Project-Phase 1.pkt` — Packet Tracer project file currently stored in the repository
+- `documentation/ip-addressing-plan.md` — IP addressing reference
 - `documentation/phase1-submission-checklist.md` — Phase 1 submission checklist
+- `documentation/phase2-repository-checklist.md` — Phase 2 repository/submission checklist
 
-## Project Objective
+Additional final artifacts, such as the completed Phase 2 Packet Tracer file and final report, should be added as separate files so the Phase 1 artifact remains preserved.
 
-The final project objective is to configure and test successful packet transmission between devices in any LAN in WAN 1 (Main Campus) and devices in any LAN in WAN 2 (Branch Campus).
+## Academic Work and Repository Maintenance
+
+The network design, Packet Tracer implementation, configuration, testing, and academic report content were completed by the student project team. Repository organization and presentation may be maintained separately from the underlying networking work.
 
 ## Version-Control Note
 
-The initial Phase 1 Packet Tracer work was completed locally before this repository was used for structured version control. Subsequent documentation and repository improvements are tracked through the repository commit history using their actual timestamps.
+The initial Packet Tracer work was completed locally before this repository was used for structured version control. Repository commits reflect the actual dates on which files and documentation were added or reorganized; no historical timestamps are reconstructed or backdated.
