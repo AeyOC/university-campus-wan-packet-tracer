@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This repository contains the Cisco Packet Tracer project for CS360 Computer Networks. The project models a university network with a Main Campus and a Branch Campus connected through a serial WAN link.
+This repository contains one Cisco Packet Tracer project developed for CS360 Computer Networks and submitted in two reporting periods: Phase 1 and Phase 2.
 
-The completed topology contains:
+The project models a university with a Main Campus and a Branch Campus connected through a serial WAN link. The completed topology contains:
 
 - 12 end devices
 - 4 Cisco Catalyst 2960 switches
@@ -14,24 +14,32 @@ The completed topology contains:
 
 The objective is to provide successful end-to-end communication between devices located in different LANs across WAN 1 and WAN 2.
 
-## Project Phases
+## Submission Phases
 
-### Phase 1 – Mid-Project Progress
+### Phase 1 – Mid-Project Progress Report
 
-Phase 1 covered the initial project setup and preparation, including Packet Tracer installation, device and cable studies, IP addressing planning, and the initial Packet Tracer project file.
+Phase 1 documented the initial project work, including:
 
-### Phase 2 – Final Project
+- Cisco Packet Tracer installation and study
+- Device selection and node creation
+- Study of copper straight-through, copper cross-over, and serial DCE/DTE links
+- IP addressing planning
+- Initial topology preparation
+- Selection of static routing as the intended routing method
+- Identification and resolution of the Cisco 2911 serial-interface module issue
 
-Phase 2 completes the network implementation and verification. The final work covers:
+### Phase 2 – Final Project Report
 
-- Complete network topology
-- LAN connections using appropriate Ethernet cabling
-- End-device IP addressing and default gateways
+Phase 2 documented completion and verification of the same Packet Tracer project, including:
+
+- Complete topology with all required nodes
+- LAN cabling and router connections
+- End-device IPv4 addressing, subnet masks, and default gateways
 - Router LAN interface configuration
 - Serial WAN configuration between Router 1 and Router 2
-- Routing between the two campus networks
-- Connectivity testing using ping in both directions
-- Final report evidence and reflection
+- Static routing between the two campus networks
+- Successful end-to-end ping testing in both directions
+- Final written reflection and project artifacts
 
 ## Network Addressing Plan
 
@@ -50,17 +58,15 @@ WAN serial interface addresses:
 
 ## Repository Contents
 
-- `CS360_Project-Phase 1.pkt` — Packet Tracer project file currently stored in the repository
-- `documentation/ip-addressing-plan.md` — IP addressing reference
+- `CS360_Project.pkt` — the single Cisco Packet Tracer project used across both Phase 1 and Phase 2 submissions
+- `documentation/ip-addressing-plan.md` — project IP addressing reference
 - `documentation/phase1-submission-checklist.md` — Phase 1 submission checklist
 - `documentation/phase2-repository-checklist.md` — Phase 2 repository/submission checklist
 
-Additional final artifacts, such as the completed Phase 2 Packet Tracer file and final report, should be added as separate files so the Phase 1 artifact remains preserved.
+## Project Structure
 
-## Academic Work and Repository Maintenance
-
-The network design, Packet Tracer implementation, configuration, testing, and academic report content were completed by the student project team. Repository organization and presentation may be maintained separately from the underlying networking work.
+This course project used one continuously developed Packet Tracer file rather than separate project files for each phase. Phase 1 and Phase 2 are reporting milestones for the same network project.
 
 ## Version-Control Note
 
-The initial Packet Tracer work was completed locally before this repository was used for structured version control. Repository commits reflect the actual dates on which files and documentation were added or reorganized; no historical timestamps are reconstructed or backdated.
+The Packet Tracer project was initially created locally and then added to this repository for submission and ongoing documentation. Repository commits reflect the actual dates when files and documentation were added, renamed, organized, or updated. No historical timestamps were reconstructed or backdated.

@@ -4,13 +4,13 @@ This checklist is for organizing the final CS360 project repository and Blackboa
 
 ## Repository Artifacts
 
-- [x] Preserve the Phase 1 Packet Tracer file
+- [x] Keep the single `CS360_Project.pkt` file used for the project across both phases
 - [x] Keep the IP addressing documentation
 - [x] Keep Phase 1 documentation/history
-- [ ] Add the completed Phase 2 Packet Tracer file as a separate `.pkt` file
-- [ ] Add the final Phase 2 report PDF
-- [ ] Add any router configuration text files, if available
-- [ ] Add screenshots/evidence files if the team wants them available in the repository
+- [x] Keep the same repository for Phase 2 so the full project history remains visible
+- [ ] Add the final Phase 2 report PDF if required in the repository
+- [ ] Add router configuration text files only if the team already has them and wants them included
+- [ ] Add screenshots/evidence files only if the team wants them available in the repository
 
 ## Phase 2 Report Verification
 
@@ -21,7 +21,7 @@ Before submission, confirm that the final report contains:
 - [ ] IP addressing screenshots for at least one end device in each LAN
 - [ ] Router LAN interface configuration commands
 - [ ] Serial WAN link screenshot
-- [ ] Serial interface and routing commands
+- [ ] Serial interface and static routing commands
 - [ ] Clock-rate command where applicable
 - [ ] Successful WAN 1 → WAN 2 ping evidence
 - [ ] Successful WAN 2 → WAN 1 ping evidence
@@ -35,8 +35,12 @@ The final report should include links to:
 
 - Live report document with version history
 - GitHub repository with commit history
-- Packet Tracer project file
+- `CS360_Project.pkt`
+
+## Project Structure Note
+
+Phase 1 and Phase 2 are two submission periods for the same Packet Tracer project. A second `.pkt` file is not required merely because the report is divided into two phases.
 
 ## Repository History Note
 
-The Packet Tracer project was initially developed locally. The GitHub repository reflects the actual dates on which project files and repository documentation were added or organized. Historical timestamps should not be recreated or backdated.
+The Packet Tracer project was initially developed locally. The GitHub repository reflects the actual dates on which project files and repository documentation were added, renamed, or organized. Historical timestamps are not recreated or backdated.
